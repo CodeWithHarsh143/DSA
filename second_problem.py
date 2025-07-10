@@ -60,3 +60,8 @@ for idx, test in enumerate(test_cases):
     print("Expected:", test["expected"])
     print("Output  :", result)
     print()
+if __name__=="__main__":
+    num=list(map(int,input().split(",")))
+    target=int(input())
+    print(first_and_last_number(num,target))
+    
